@@ -1,4 +1,5 @@
 router = require('express').Router();
+const {check,validationResult} = require('express-validator');
 
 Empleado = require('../../models/empleado');
 
